@@ -128,6 +128,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "cstl"
+version = "0.1.0"
+dependencies = [
+ "crossterm",
+ "git2",
+ "rand",
+ "ratatui",
+ "tokio",
+]
+
+[[package]]
 name = "darling"
 version = "0.20.10"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -832,17 +843,6 @@ checksum = "c970269d99b64e60ec3bd6ad27270092a5394c4e309314b18ae3fe575695fbe8"
 dependencies = [
  "libc",
  "windows-sys 0.52.0",
-]
-
-[[package]]
-name = "spat"
-version = "0.1.0"
-dependencies = [
- "crossterm",
- "git2",
- "rand",
- "ratatui",
- "tokio",
 ]
 
 [[package]]
